@@ -132,20 +132,28 @@ Spider_api.py：使用接口爬虫
 
 主要完成数据的平滑操作
 
-![1537283623276](C:\Users\Crystina\AppData\Local\Temp\1537283623276.png)
+<p align="left">
+<img src="https://github.com/CrystinaJ/hot_weibo/blob/master/images/smooth.png", width="720">
+</p>
 
 
 ## 2.5 最高峰值对齐
 
 通过计算最高峰，完成数据的移动操作
 
-![1537283919037](C:\Users\Crystina\AppData\Local\Temp\1537283919037.png)
+<p align="left">
+<img src="https://github.com/CrystinaJ/hot_weibo/blob/master/images/perk_align.png", width="720">
+</p>
+
 
 
 
 ##2.6 合并数据
 
-![1537283964251](C:\Users\Crystina\AppData\Local\Temp\1537283964251.png)
+<p align="left">
+<img src="https://github.com/CrystinaJ/hot_weibo/blob/master/images/merge.png", width="720">
+</p>
+
 
 
 
@@ -153,7 +161,10 @@ Spider_api.py：使用接口爬虫
 
 在聚类操作之前，不得不做的一件事，求解聚类中心：
 
-![1537284065812](C:\Users\Crystina\AppData\Local\Temp\1537284065812.png)
+<p align="left">
+<img src="https://github.com/CrystinaJ/hot_weibo/blob/master/images/cluster_center.png", width="720">
+</p>
+
 
 
 
@@ -161,13 +172,18 @@ Spider_api.py：使用接口爬虫
 
 聚类中心和label可视化
 
-![1537284166696](C:\Users\Crystina\AppData\Local\Temp\1537284166696.png)
+<p align="left">
+<img src="https://github.com/CrystinaJ/hot_weibo/blob/master/images/Kmeans.png", width="720">
+</p>
+
 
 ## 3.2 KSC实验
 
 聚类中心和labe可视化
 
-![img](C:\Users\Crystina\AppData\Local\Temp\1537284194682.png)
+<p align="left">
+<img src="https://github.com/CrystinaJ/hot_weibo/blob/master/images/ksc.png", width="720">
+</p>
 
 
 
