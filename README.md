@@ -110,7 +110,7 @@ Spider_api.py：使用接口爬虫
 
 （1）数据不完整  
 
-（2）数据量比较小：虽然选取的微博种子用户的粉丝比较大，但微博点赞数、评论、转发数比较小  
+（2）数据量比较小：虽然选取的微博种子用户的粉丝比较大，但微博点赞数、评论、转发数比较小 
 
 （3）非热点微博：最高峰对齐中峰值为1的时候
 
@@ -132,29 +132,28 @@ Spider_api.py：使用接口爬虫
 
 主要完成数据的平滑操作
 
-![img](d:/docs/youdao/m15694003168@163.com/cf7c57ff33f04da3abc9cddb8d0bd42a/1_10_1023_4243578475790605.csv.png)
+![1537283623276](C:\Users\Crystina\AppData\Local\Temp\1537283623276.png)
 
 
-
-## 2.5. 最高峰值对齐
+## 2.5 最高峰值对齐
 
 通过计算最高峰，完成数据的移动操作
 
-![img](d:/docs/youdao/m15694003168@163.com/daedfc6b0e944a8f834111fee32ee942/1.png)
+![1537283919037](C:\Users\Crystina\AppData\Local\Temp\1537283919037.png)
 
 
 
-\6. 合并数据
+##2.6 合并数据
 
-![img](d:/docs/youdao/m15694003168@163.com/3eb4eff818d143b097b70c5753f71b91/day_2.png)
+![1537283964251](C:\Users\Crystina\AppData\Local\Temp\1537283964251.png)
 
 
 
-# 3.聚类及预测实验
+# 3. 聚类及预测实验
 
 在聚类操作之前，不得不做的一件事，求解聚类中心：
 
-![img](d:/docs/youdao/m15694003168@163.com/b2b73dc938454383bc9efcf8e0d3465a/clipboard.png)
+![1537284065812](C:\Users\Crystina\AppData\Local\Temp\1537284065812.png)
 
 
 
@@ -162,13 +161,15 @@ Spider_api.py：使用接口爬虫
 
 聚类中心和label可视化
 
-![img](d:/docs/youdao/m15694003168@163.com/cf64df32ac294bd593c5d14fae33a0df/clipboard.png)
+![1537284166696](C:\Users\Crystina\AppData\Local\Temp\1537284166696.png)
 
 ## 3.2 KSC实验
 
 聚类中心和labe可视化
 
-![img](d:/docs/youdao/m15694003168@163.com/7908ddd6d9c9481686c9ef64655a4794/clipboard.png)
+![img](C:\Users\Crystina\AppData\Local\Temp\1537284194682.png)
+
+
 
 ## 3.3 Kmeans 和 KSC预测实验
 
