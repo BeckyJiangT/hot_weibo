@@ -1,0 +1,17 @@
+mongodb operation codes
+参考链接：https://www.drzon.net/posts/export-mongodb-collections-to-csv-without-specifying-fields/
+
+#export json:
+mongoexport --db test --collection traffic --out traffic.json
+mongoexport --db weibo --collection userAccount --out D:\Crystina\codes\weibo-master\src\data\json\userAccount.json
+
+#export csv:
+mongoexport --db weibo --collection userAccount  --type=csv --fields _id,cookie,id --out D:\Crystina\codes\weibo-master\src\data\json\userAccount.csv
+
+
+#import json
+mongoimport --db weibo --collection information --file D:\Data\dataset\SNAP\weibo\Information.json
+
+mongoimport --db Sina --collection information --type json --drop --file D:\Data\dataset\SNAP\weibo\Information.json
+
+mongoimport --db dbName --collection collectionName --file fileName.json --jsonArray
